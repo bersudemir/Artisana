@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/girisFragment"
+        android:name="com.example.mobil.GirisFragment"
+        android:label="fragment_giris"
+        tools:layout="@layout/fragment_giris" >
+        <action
+            android:id="@+id/action_girisFragment_to_kayitFragment"
+            app:destination="@id/kayitFragment" />
+        <action
+            android:id="@+id/action_girisFragment_to_sifreYenileFragment"
+            app:destination="@id/sifreYenileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kayitFragment"
+        android:name="com.example.mobil.KayitFragment"
+        android:label="fragment_kayit"
+        tools:layout="@layout/fragment_kayit" >
+        <action
+            android:id="@+id/action_kayitFragment_to_girisFragment"
+            app:destination="@id/girisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.mobil.WelcomeFragment"
+        android:label="WelcomeFragment"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_girisFragment"
+            app:destination="@id/girisFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_kayitFragment"
+            app:destination="@id/kayitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sifreYenileFragment"
+        android:name="com.example.mobil.SifreYenileFragment"
+        android:label="fragment_sifre_yenile"
+        tools:layout="@layout/fragment_sifre_yenile" >
+        <action
+            android:id="@+id/action_sifreYenileFragment_to_girisFragment"
+            app:destination="@id/girisFragment" />
+    </fragment>
+</navigation>

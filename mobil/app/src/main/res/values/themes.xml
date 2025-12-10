@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Mobil" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/logoYesili</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/backgroundColor</item>
+        <item name="colorOnSurface">@color/textPrimaryColor</item>
+
+        <item name="android:statusBarColor">@color/backgroundColor</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="M">true</item>
+
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+        <item name="android:textColorPrimary">@color/textPrimaryColor</item>
+        <item name="android:textColorSecondary">@color/textSecondaryColor</item>
+    </style>
+
+    <style name="Theme.Mobil" parent="Base.Theme.Mobil" />
+
+    <style name="Widget.App.ShapeableImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>
+

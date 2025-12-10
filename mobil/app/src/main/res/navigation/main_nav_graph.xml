@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/kullaniciHomeFragment">
+
+    <fragment
+        android:id="@id/kullaniciHomeFragment"
+        android:name="com.example.mobil.KullaniciHomeFragment"
+        android:label="fragment_kullanici_home"
+        tools:layout="@layout/fragment_kullanici_home" >
+        <action
+            android:id="@+id/action_kullaniciHomeFragment_to_kullaniciFavFragment"
+            app:destination="@id/kullaniciFavFragment" />
+        <action
+            android:id="@+id/action_kullaniciHomeFragment_to_UrunDetayFragment"
+            app:destination="@id/UrunDetayFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@id/kullaniciFavFragment"
+        android:name="com.example.mobil.KullaniciFavFragment"
+        android:label="fragment_kullanici_fav"
+        tools:layout="@layout/fragment_kullanici_fav" >
+        <action
+            android:id="@+id/action_kullaniciFavFragment_to_kullaniciProfilFragment"
+            app:destination="@id/kullaniciProfilFragment" />
+        <action
+            android:id="@+id/action_kullaniciFavFragment_to_UrunDetayFragment"
+            app:destination="@id/UrunDetayFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@id/kullaniciSepetFragment"
+        android:name="com.example.mobil.KullaniciSepetFragment"
+        android:label="fragment_kullanici_sepet"
+        tools:layout="@layout/fragment_kullanici_sepet" />
+
+    <fragment
+        android:id="@id/kullaniciProfilFragment"
+        android:name="com.example.mobil.KullaniciProfilFragment"
+        android:label="fragment_kullanici_profil"
+        tools:layout="@layout/fragment_kullanici_profil" >
+        <action
+            android:id="@+id/action_kullaniciProfilFragment_to_kullaniciSepetFragment"
+            app:destination="@id/kullaniciSepetFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/UrunDetayFragment"
+        android:name="com.example.mobil.UrunDetayFragment"
+        android:label="UrunDetayFragment"
+        tools:layout="@layout/fragment_urun_detay"/>
+
+</navigation>

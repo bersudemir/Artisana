@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Artisana</string>
+    <string name="tagline">Emek Veren Kadınların Eli</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+
+    <string name="ad_soyad">Ad Soyad</string>
+    <string name="e_posta">E-posta</string>
+    <string name="sifre">Şifre</string>
+    <string name="sifremi_unuttum">Şifremi Unuttum ?</string>
+    <string name="zaten_hesabin_var_mi">Zaten hesabın var mı ?</string>
+    <string name="giris_yap_link">Giriş yap</string>
+    <string name="hesabin_yok_mu">Hesabın yok mu ?</string>
+    <string name="kayit_ol_link">Kayıt ol</string>
+
+    <string name="bos_alan_hatasi">Lütfen tüm alanları doldurun.</string>
+    <string name="eposta_zaten_kullanimda">Bu e-posta zaten kayıtlı.</string>
+    <string name="gecersiz_eposta_hatasi">Geçersiz e-posta formatı.</string>
+    <string name="sifre_min_6_hatasi">Şifre en az 6 karakter olmalı..</string>
+    <string name="sifre_sifirla">Şifre Sıfırla</string>
+    <string name="giris_basarisiz">Giriş Başarısız.</string>
+    <string name="giris_basarili">Giriş Başarılı.</string>
+    <string name="kayit_basarisiz">Kayıt Başarısız.</string>
+    <string name="kayit_basarili">Kayıt Başarılı.</string>
+    <string name="bilinmeyen_hata">Bir hata oluştu. Lütfen tekrar deneyin.</string>
+    <string name="sifirlama_text">Lütfen hesabınıza kayıtlı e-posta adresinizi giriniz. Size şifre sıfırlama bağlantısı göndereceğiz.</string>
+
+    <string name="bottom_nav_home">Ana Sayfa</string>
+    <string name="bottom_nav_favori">Favoriler</string>
+    <string name="bottom_nav_sepet">Sepetim</string>
+    <string name="bottom_nav_profil">Profil</string>
+
+</resources>

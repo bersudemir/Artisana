@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:strokeColor="#E0E0E0"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgSepetUrun"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:background="#F5F5F5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.MediumComponent"
+            tools:src="@drawable/sayfa_logo" />
+
+        <ImageView
+            android:id="@+id/btnSepetSil"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="6dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/close_resim"
+            app:tint="@color/errorColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtSepetUrunAd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="El İşi Deri Çanta"
+            android:textColor="@color/textPrimaryColor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="2"
+            app:layout_constraintStart_toEndOf="@id/imgSepetUrun"
+            app:layout_constraintEnd_toStartOf="@id/btnSepetSil"
+            app:layout_constraintTop_toTopOf="@id/imgSepetUrun" />
+
+        <TextView
+            android:id="@+id/txtSepetFiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="350,00 ₺"
+            android:textColor="@color/logoYesili"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imgSepetUrun"
+            app:layout_constraintTop_toBottomOf="@id/txtSepetUrunAd" />
+
+        <LinearLayout
+            android:id="@+id/layoutAdetKontrol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtSepetFiyat"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageView
+                android:id="@+id/btnAzalt"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/eksi_resim"
+                app:tint="@color/textPrimaryColor" />
+
+            <TextView
+                android:id="@+id/txtAdet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:text="1"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:minWidth="24dp" />
+
+            <ImageView
+                android:id="@+id/btnArtir"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/arti_resim"
+                app:tint="@color/textPrimaryColor" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

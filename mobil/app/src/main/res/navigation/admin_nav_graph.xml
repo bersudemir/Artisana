@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_nav_graph"
+    app:startDestination="@id/adminDashboard">
+
+    <fragment
+        android:id="@+id/adminDashboard"
+        android:name="com.example.mobil.AdminDashboard"
+        android:label="fragment_admin_dashboard"
+        tools:layout="@layout/fragment_admin_dashboard" >
+        <action
+            android:id="@+id/action_adminDashboard_to_adminUrunYonetimi"
+            app:destination="@id/adminUrunYonetimi" />
+        <action
+            android:id="@+id/action_adminDashboard_to_adminSiparisTakibi"
+            app:destination="@id/adminSiparisTakibi" />
+        <action
+            android:id="@+id/action_adminDashboard_to_adminKullaniciTakibi"
+            app:destination="@id/adminKullaniciTakibi" />
+        <action
+            android:id="@+id/action_adminDashboard_to_adminProfil"
+            app:destination="@id/adminProfil" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminKullaniciTakibi"
+        android:name="com.example.mobil.AdminKullaniciTakibi"
+        android:label="fragment_admin_kullanici_takibi"
+        tools:layout="@layout/fragment_admin_kullanici_takibi" />
+    <fragment
+        android:id="@+id/adminSiparisTakibi"
+        android:name="com.example.mobil.AdminSiparisTakibi"
+        android:label="fragment_admin_siparis_takibi"
+        tools:layout="@layout/fragment_admin_siparis_takibi" />
+    <fragment
+        android:id="@+id/adminUrunYonetimi"
+        android:name="com.example.mobil.AdminUrunYonetimi"
+        android:label="fragment_admin_urun_yonetimi"
+        tools:layout="@layout/fragment_admin_urun_yonetimi" >
+        <action
+            android:id="@+id/action_adminUrunYonetimi_to_urunEkle"
+            app:destination="@id/urunEkle" />
+        <action
+            android:id="@+id/action_adminUrunYonetimi_to_urunGuncelleFragment"
+            app:destination="@id/urunGuncelleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminProfil"
+        android:name="com.example.mobil.AdminProfil"
+        android:label="AdminProfil"
+        tools:layout="@layout/fragment_admin_profil"/>
+    <fragment
+        android:id="@+id/urunEkle"
+        android:name="com.example.mobil.UrunEkle"
+        android:label="UrunEkle"
+        tools:layout="@layout/fragment_urun_ekle"/>
+    <fragment
+        android:id="@+id/urunGuncelleFragment"
+        android:name="com.example.mobil.UrunGuncelleFragment"
+        android:label="UrunGuncelleFragment"
+        tools:layout="@layout/fragment_urun_guncelle"/>
+</navigation>

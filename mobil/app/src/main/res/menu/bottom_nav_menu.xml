@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/kullaniciHomeFragment"
+        android:icon="@drawable/bottom_home"
+        android:title="@string/bottom_nav_home" />
+    <item
+        android:id="@+id/kullaniciFavFragment"
+        android:icon="@drawable/bottom_fav"
+        android:title="@string/bottom_nav_favori" />
+    <item
+        android:id="@+id/kullaniciSepetFragment"
+        android:icon="@drawable/bottom_sepet"
+        android:title="@string/bottom_nav_sepet" />
+    <item
+        android:id="@+id/kullaniciProfilFragment"
+        android:icon="@drawable/bottom_profil"
+        android:title="@string/bottom_nav_profil" />
+</menu>

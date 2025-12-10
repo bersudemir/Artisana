@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ilk_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sipariş İçeriği"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/textPrimaryColor"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginBottom="16dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:maxHeight="200dp"> <TextView
+            android:id="@+id/tvDialogIcerik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6dp"
+            android:text="Sipariş listesi buraya gelecek..."
+            android:textColor="@color/textPrimaryColor"
+            android:textSize="16sp" />
+        </ScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text=" 🪪 Sipariş Kimlik Kartı"
+            android:textColor="@color/gri"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/dialogQrImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ilk_logo" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnKapat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TAMAM"
+            android:textStyle="bold"
+            app:cornerRadius="12dp"
+            app:backgroundTint="@color/logoYesili"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

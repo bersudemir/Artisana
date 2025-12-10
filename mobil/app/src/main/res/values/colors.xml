@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#8D5B4C</color>
+    <color name="colorAccent">#D4B2A7</color>
+    <color name="backgroundColor">#F2EFE5</color>
+    <color name="textPrimaryColor">#4E403B</color>
+    <color name="textSecondaryColor">#9E8A82</color>
+    <color name="successColor">#7A9E7E</color>
+    <color name="gri">#757575</color>
+    <color name="errorColor">#C05E5A</color>
+    <color name="logoYesili">#50727B</color>
+</resources>

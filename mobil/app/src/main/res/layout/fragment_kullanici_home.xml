@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".KullaniciHomeFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/toolbar_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/sayfa_logo" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textUrunler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Keşfet"
+        android:textColor="@color/textPrimaryColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clipToPadding="false"
+        android:paddingStart="16dp"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textUrunler">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupKategori"
+            android:layout_width="wrap_content"  android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipTumu"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:checked="true"
+                android:clickable="true"
+                android:checkable="true"
+                android:elevation="4dp"
+                android:text="Tüm Ürünler"
+                android:textAlignment="center"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:checkedIconVisible="false"
+                app:chipBackgroundColor="@color/white"
+                app:chipCornerRadius="25dp"
+                app:chipStrokeWidth="0dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCanta"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:checkable="true"
+                android:elevation="4dp"
+                android:text="Çantalar"
+                android:textAlignment="center"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:checkedIconVisible="false"
+                app:chipBackgroundColor="@color/white"
+                app:chipCornerRadius="25dp"
+                app:chipStrokeWidth="0dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCuzdan"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:checkable="true"
+                android:elevation="4dp"
+                android:text="Cüzdanlar"
+                android:textAlignment="center"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:checkedIconVisible="false"
+                app:chipBackgroundColor="@color/white"
+                app:chipCornerRadius="25dp"
+                app:chipStrokeWidth="0dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipAksesuar"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:checkable="true"
+                android:elevation="4dp"
+                android:text="Aksesuarlar"
+                android:textAlignment="center"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:checkedIconVisible="false"
+                app:chipBackgroundColor="@color/white"
+                app:chipCornerRadius="25dp"
+                app:chipStrokeWidth="0dp" />
+
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/horizontalScrollKategori"
+        app:spanCount="2"
+        tools:listitem="@layout/urun_card_tasarim" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
