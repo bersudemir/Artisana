@@ -84,7 +84,7 @@ Kod yapısı modülerdir ve her ekran kendi görevini sorumluluk ayrımı prensi
 | <img src="https://github.com/user-attachments/assets/3a58e48d-b92d-4393-9e0a-0bd5b886c912" width="200"> | <img src="https://github.com/user-attachments/assets/d33a8fa7-7fd6-428a-8bb4-61f7d209f45f" width="200"> | <img src="https://github.com/user-attachments/assets/45ba8d9c-3053-4cb6-9f52-812244727b16" width="200"> | <img src="https://github.com/user-attachments/assets/61c34a50-9788-45b4-a849-ac677487f182" width="200"> |
 
 ### 🛍️ Kullanıcı (User) Arayüzü
-| Giriş Ekranı | Ana Sayfa / Vitrin | Sepetim | Profilim |
+| Giriş Ekranı | Sepetim | Favoriler | Profilim |
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/2c692e10-3d9e-417b-ad7c-0cb5b1a5a467" width="200"> | <img src="https://github.com/user-attachments/assets/d2d6d3dd-4e34-4207-aa3f-56f3a25a9593" width="200"> | <img src="https://github.com/user-attachments/assets/97feb635-d304-4b89-88ac-6686a3ff73dc" width="200"> | <img src="https://github.com/user-attachments/assets/1477e0d0-77b8-454b-be2d-ea8dc7cf7374" width="200"> |
 
