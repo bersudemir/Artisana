@@ -74,21 +74,19 @@ Base64 + Resize ile fotoğraf optimizasyonu (Performans için özel geliştirme)
 
 Kod yapısı modülerdir ve her ekran kendi görevini sorumluluk ayrımı prensibiyle yerine getirir.
 
-📸 Ekran Görüntüleri (İsteğe göre eklenebilir)
-Admin Paneli Görüntüleri :
-![WhatsApp Görsel 2025-12-10 saat 23 26 08_2ee05245](https://github.com/user-attachments/assets/83da11cb-477d-4553-8699-cbe7fd8b6006)
-![WhatsApp Görsel 2025-12-10 saat 23 26 08_256a173b](https://github.com/user-attachments/assets/315033dd-4d19-40c9-82c6-cae1d8a6a89c)
-![WhatsApp Görsel 2025-12-10 saat 23 26 09_d6045610](https://github.com/user-attachments/assets/41a26fe6-20dc-4abc-a0e3-04285b2ce38a)
-![WhatsApp Görsel 2025-12-10 saat 23 26 09_50e7f666](https://github.com/user-attachments/assets/75acd5c2-d3fe-48ef-886c-5628733a5645)
-![WhatsApp Görsel 2025-12-10 saat 23 26 09_1d73fe30](https://github.com/user-attachments/assets/d33a8fa7-7fd6-428a-8bb4-61f7d209f45f)
-![WhatsApp Görsel 2025-12-10 saat 23 26 09_707ece0e](https://github.com/user-attachments/assets/45ba8d9c-3053-4cb6-9f52-812244727b16)
-![WhatsApp Görsel 2025-12-10 saat 23 26 09_796301a3](https://github.com/user-attachments/assets/61c34a50-9788-45b4-a849-ac677487f182)
+📸 Ekran Görüntüleri 
 
-Kullanıcı Ekranları :
-![WhatsApp Görsel 2025-12-10 saat 23 26 10_7bbf2b3c](https://github.com/user-attachments/assets/2c692e10-3d9e-417b-ad7c-0cb5b1a5a467)
-![WhatsApp Görsel 2025-12-11 saat 00 16 50_3a2438ae](https://github.com/user-attachments/assets/d2d6d3dd-4e34-4207-aa3f-56f3a25a9593)
-![WhatsApp Görsel 2025-12-11 saat 00 16 50_8c1f36bf](https://github.com/user-attachments/assets/97feb635-d304-4b89-88ac-6686a3ff73dc)
-![WhatsApp Görsel 2025-12-11 saat 00 16 49_08c26f69](https://github.com/user-attachments/assets/1477e0d0-77b8-454b-be2d-ea8dc7cf7374)
+### 👨‍💻 Yönetici (Admin) Paneli
+| Dashboard & Menü | Ürün Yönetimi | Kullanıcı Yönetimi | Sipariş Takibi |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/83da11cb-477d-4553-8699-cbe7fd8b6006" width="200"> | <img src="https://github.com/user-attachments/assets/315033dd-4d19-40c9-82c6-cae1d8a6a89c" width="200"> | <img src="https://github.com/user-attachments/assets/41a26fe6-20dc-4abc-a0e3-04285b2ce38a" width="200"> | <img src="https://github.com/user-attachments/assets/75acd5c2-d3fe-48ef-886c-5628733a5645" width="200"> |
+| **Sipariş Detayı** | **QR Kod** | **Profil** | |
+| <img src="https://github.com/user-attachments/assets/d33a8fa7-7fd6-428a-8bb4-61f7d209f45f" width="200"> | <img src="https://github.com/user-attachments/assets/45ba8d9c-3053-4cb6-9f52-812244727b16" width="200"> | <img src="https://github.com/user-attachments/assets/61c34a50-9788-45b4-a849-ac677487f182" width="200"> | |
+
+### 🛍️ Kullanıcı (User) Arayüzü
+| Giriş Ekranı | Ana Sayfa / Vitrin | Sepetim | Profilim |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/2c692e10-3d9e-417b-ad7c-0cb5b1a5a467" width="200"> | <img src="https://github.com/user-attachments/assets/d2d6d3dd-4e34-4207-aa3f-56f3a25a9593" width="200"> | <img src="https://github.com/user-attachments/assets/97feb635-d304-4b89-88ac-6686a3ff73dc" width="200"> | <img src="https://github.com/user-attachments/assets/1477e0d0-77b8-454b-be2d-ea8dc7cf7374" width="200"> |
 
 
 📦 Kullanılan Teknolojiler
