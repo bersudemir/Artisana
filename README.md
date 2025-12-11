@@ -153,7 +153,7 @@ Firebase Realtime DB'de rol bazlı veri ayrımı
 
 🚀 Kurulum
 
-1. Depoyu klonla: git clone https://github.com/bersudemir/proje-adi.git
+1. Depoyu klonla: git clone https://github.com/bersudemir/artisana.git
    
 2. Android Studio ile aç
    
