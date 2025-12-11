@@ -81,7 +81,7 @@ Kod yapısı modülerdir ve her ekran kendi görevini sorumluluk ayrımı prensi
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/83da11cb-477d-4553-8699-cbe7fd8b6006" width="200"> | <img src="https://github.com/user-attachments/assets/315033dd-4d19-40c9-82c6-cae1d8a6a89c" width="200"> | <img src="https://github.com/user-attachments/assets/41a26fe6-20dc-4abc-a0e3-04285b2ce38a" width="200"> | <img src="https://github.com/user-attachments/assets/75acd5c2-d3fe-48ef-886c-5628733a5645" width="200"> |
 | **Kullanıcı Yönetimi** | **Sipariş Detayı** | **Sipariş Detay QR Kod** | **Profil** |
-| <img src="https://github.com/user-attachments/assets/3a58e48d-b92d-4393-9e0a-0bd5b886c912" width="200"> | <img src="https://github.com/user-attachments/assets/d33a8fa7-7fd6-428a-8bb4-61f7d209f45f" width="200"> | <img src="https://github.com/user-attachments/assets/45ba8d9c-3053-4cb6-9f52-812244727b16" width="200"> | <img src="https://github.com/user-attachments/assets/61c34a50-9788-45b4-a849-ac677487f182" width="200"> |
+| <img src="https://github.com/user-attachments/assets/3a58e48d-b92d-4393-9e0a-0bd5b886c912" width="200"> | <img src="https://github.com/user-attachments/assets/314efc9f-1da2-4bb5-8cb9-0441535bddc7" width="200"> | <img src="https://github.com/user-attachments/assets/45ba8d9c-3053-4cb6-9f52-812244727b16" width="200"> | <img src="https://github.com/user-attachments/assets/61c34a50-9788-45b4-a849-ac677487f182" width="200"> |
 
 ### 🛍️ Kullanıcı (User) Arayüzü
 | Giriş Ekranı | Sepetim | Favoriler | Profilim |
