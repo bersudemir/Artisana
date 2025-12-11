@@ -161,3 +161,5 @@ Firebase Realtime DB'de rol bazlı veri ayrımı
 📄 Ek Bilgi
 
 Rapor IEEE formatında hazırlanmış olup README içerisinde yer almaktadır.
+<img width="17601" height="11543" alt="Artisana Akış Diyagramı" src="https://github.com/user-attachments/assets/ac4bd432-1973-4aea-ad4b-41c34656d922" />
+<img width="5752" height="5860" alt="Artisana ERD" src="https://github.com/user-attachments/assets/00fac884-f1af-436b-aff0-643d4af1eba9" />
