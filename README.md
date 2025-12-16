@@ -173,5 +173,6 @@ Rapor IEEE formatında hazırlanmış olup README içerisinde yer almaktadır.
 [241307014.pdf](https://github.com/user-attachments/files/24112953/241307014.pdf)
 
 Veritabanı yedeği README içerisinde yer almaktadır.
+
 [artisana_veritabani_yedegi.json](https://github.com/user-attachments/files/24192584/artisana_veritabani_yedegi.json)
 
