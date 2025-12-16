@@ -2,7 +2,7 @@
 
 Kotlin • Firebase • MVVM • Retrofit • Glide
 
-Bu proje, Kocaeli Üniversitesi Mobil Uygulama Geliştirme dersi kapsamında geliştirilen tam işlevli bir e-ticaret uygulamasıdır. Uygulama hem User hem de Admin rollerini destekler; ürün yönetimi, sipariş yönetimi, favoriler sistemi, sepet yönetimi ve API entegrasyonları içeren kapsamlı bir yapıya sahiptir.
+Bu proje, Kocaeli Üniversitesi - Bilişim Sistemleri Mühendisliği Mobil Uygulama Geliştirme dersi kapsamında geliştirilen tam işlevli bir e-ticaret uygulamasıdır. Uygulama hem User hem de Admin rollerini destekler; ürün yönetimi, sipariş yönetimi, favoriler sistemi, sepet yönetimi ve API entegrasyonları içeren kapsamlı bir yapıya sahiptir.
 
 Uygulama Google Play Store’a yüklenmeye hazır olacak şekilde tasarlanmış, modern mimari prensipleriyle geliştirilmiş ve Firebase altyapısıyla desteklenmiştir.
 
@@ -14,7 +14,7 @@ Uygulama Google Play Store’a yüklenmeye hazır olacak şekilde tasarlanmış,
 
 Ürünleri favorilere ekleme / çıkarma
 
-Ürünleri sepete ekleme / sepette miktar güncelleme / silme
+Ürünleri sepete ekleme / sepette miktar güncelleme / sepetten silme
 
 Sepet toplam tutarını görme
 
@@ -36,11 +36,15 @@ Kullanıcı listeleme, güncelleme, silme, dondurma
 
 Tüm siparişleri görüntüleme 
 
-Sipariş detayı gösteren Qr WebApi-Glide
+Sipariş detayı gösteren Qr Web Api-Glide
 
 Siparişleri onaylama
 
-Admin profil bilgilerini düzenleme
+Admin profil bilgilerini güncelleme
+
+Şifre güncelleme ve şifre sıfırlama
+
+Hesap dondurma / aktifleştirme
 
 USD/TRY API’si ile döviz kuru görüntüleme 
 
@@ -157,13 +161,17 @@ Firebase Realtime DB'de rol bazlı veri ayrımı
    
 4. Çalıştır 🎉
 
+📊 ERD & Akış Diyagramları
+
+<img width="17601" height="11543" alt="Artisana Akış Diyagramı" src="https://github.com/user-attachments/assets/ac4bd432-1973-4aea-ad4b-41c34656d922" />
+<img width="5752" height="5860" alt="Artisana ERD" src="https://github.com/user-attachments/assets/00fac884-f1af-436b-aff0-643d4af1eba9" />
+
 📄 Ek Bilgi
 
 Rapor IEEE formatında hazırlanmış olup README içerisinde yer almaktadır.
 
 [241307014.pdf](https://github.com/user-attachments/files/24112953/241307014.pdf)
 
-📊 ERD & Akış Diyagramları
+Veritabanı yedeği README içerisinde yer almaktadır.
+[artisana_veritabani_yedegi.json](https://github.com/user-attachments/files/24192584/artisana_veritabani_yedegi.json)
 
-<img width="17601" height="11543" alt="Artisana Akış Diyagramı" src="https://github.com/user-attachments/assets/ac4bd432-1973-4aea-ad4b-41c34656d922" />
-<img width="5752" height="5860" alt="Artisana ERD" src="https://github.com/user-attachments/assets/00fac884-f1af-436b-aff0-643d4af1eba9" />
