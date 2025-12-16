@@ -170,7 +170,7 @@ Firebase Realtime DB'de rol bazlı veri ayrımı
 
 Rapor IEEE formatında hazırlanmış olup README içerisinde yer almaktadır.
 
-[241307014_Proje Raporu.pdf](https://github.com/user-attachments/files/24193582/241307014_Proje.Raporu.pdf)
+[241307014.pdf](https://github.com/user-attachments/files/24194403/241307014.pdf)
 
 Veritabanı yedeği README içerisinde yer almaktadır.
 
