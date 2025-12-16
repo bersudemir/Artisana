@@ -176,3 +176,6 @@ Veritabanı yedeği README içerisinde yer almaktadır.
 
 [artisana_veritabani_yedegi.json](https://github.com/user-attachments/files/24192584/artisana_veritabani_yedegi.json)
 
+Google Drive linki README içerisinde yer almaktadır.
+
+https://drive.google.com/file/d/1TowOgjsL3av5ZDaN9w_NhaH1AmhOPAiG/view?usp=sharing
